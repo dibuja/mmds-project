@@ -1,56 +1,11 @@
-Requirements needed to execute the code in this repository.
-
-import numpy as np
-from imageio import imread, imsave
-from PIL import Image
-
-import os
-from os import listdir
-
-from sklearn.decomposition import PCA
-
-from sklearn.cluster import KMeans
-from collections import Counter
-
-import cv2
-
-import matplotlib.pyplot as plt 
-%matplotlib inline
-
-import sklearn
-import sklearn.datasets
-import sklearn.linear_model
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import RandomForestRegressor
-
-import tensorflow as tf
-from tensorflow import keras
-from keras.layers import Dense
-
-from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
-import sklearn.tree, sklearn.ensemble
-import tensorflow.python.keras.utils
-import random
-
-import os
-
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.linear_model import Ridge
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-
-import pyspark
-from pyspark.sql import *
-from pyspark.sql.types import *
-from pyspark.sql.functions import *
-from pyspark import SparkContext, SparkConf
-
-import pyspark.sql.functions as F
-from pyspark.ml.image import ImageSchema
-from pyspark.ml.linalg import DenseVector, VectorUDT
-from pyspark.ml.clustering import KMeans
+numpy>=1.21.0
+imageio==2.18.0
+scikit-learn==1.0
+opencv-python>=4.5
+matplotlib==3.6.2
+tensorflow>=2.0
+keras
+pandas>=1.3.0
+pyspark >=3.3.0
+pillow
+collections
